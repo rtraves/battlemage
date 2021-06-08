@@ -4,7 +4,8 @@
   "description": "BattleMage is intended to be a 2d top-down physics shooter inspired by the Warcraft 3 mod Warlock Brawl",
   "main": "game.js",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "socket.io": "^4.1.2"
   },
   "devDependencies": {},
   "scripts": {
