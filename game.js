@@ -21,6 +21,11 @@ var config = {
    
   function preload() {}
    
-  function create() {}
+  function create() {
+    var circle = new Phaser.Geom.Circle(400, 300, 100);
+
+    var graphics = this.add.graphics({ fillStyle: { color: 0xff0000 } });
+    graphics.fillCircleShape(circle);
+  }
    
   function update() {}
